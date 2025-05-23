@@ -1,0 +1,287 @@
+/* Dropdown Menu Styles (used across all pages) */
+.dropdown-list.open {
+  max-height: 300px;
+}
+
+.icon-img {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.icon-img:hover {
+  background: #f1f5f9;
+}
+
+.icon-img img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.icon-img p {
+  font-size: 1.5rem;
+  color: #2d2d2d;
+  font-weight: 500;
+}
+
+/* Outlook Setup Page Styles */
+.margin-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header-mt {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.head-mt {
+  font-size: 3.6rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.header-mt p {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.header-mt p[lang="km"] {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.grid-1x2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+
+.section-install {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+.list-ins {
+  margin-bottom: 2rem;
+}
+
+.list-ins p {
+  font-size: 1.6rem;
+  color: #2d2d2d;
+  margin-bottom: 1rem;
+}
+
+.list-ins a.external-link {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.list-ins a.external-link:hover {
+  color: #1d4ed8;
+}
+
+.list-ins .inline-btn {
+  background: none;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.4rem;
+  cursor: default;
+}
+
+.list-ins img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 2px solid #3b82f6;
+}
+
+.list-Problem h4 {
+  font-size: 2rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+.p-problem {
+  font-size: 1.6rem;
+  color: #4b5563;
+}
+
+.list-hav {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.list-link-hav a {
+  font-size: 1.6rem;
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.list-link-hav a:hover {
+  text-decoration: underline;
+}
+
+.volun-dis {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.image-volun img {
+  max-width: 100px;
+  height: auto;
+}
+
+.volun-script h3 {
+  font-size: 2rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+
+.volun-script p {
+  font-size: 1.6rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.volun-link {
+  font-size: 1.5rem;
+  color: #3b82f6;
+}
+
+.volun-link:hover {
+  color: #1d4ed8;
+}
+
+.ask-question {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-search input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.input-search p {
+  font-size: 1.5rem;
+  color: #4b5563;
+}
+
+.ask-search h3 {
+  font-size: 2rem;
+  color: #1e40af;
+  margin: 1.5rem 0;
+}
+
+.ask-search h3 i {
+  color: #facc15;
+  margin-right: 0.5rem;
+}
+
+.ask-search p {
+  font-size: 1.5rem;
+  color: #4b5563;
+}
+
+.btn-down .btn {
+  background: #3b82f6;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-down .btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+.article-choose {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.article-choose h3 {
+  font-size: 2.8rem;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.card-artical {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-artical p {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+  color: #2d2d2d;
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.card-artical i {
+  color: #3b82f6;
+  margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-1x2 {
+      grid-template-columns: 1fr;
+  }
+
+  .header-mt {
+      padding: 2rem 0;
+  }
+
+  .head-mt {
+      font-size: 2.8rem;
+  }
+
+  .header-mt p {
+      font-size: 1.6rem;
+  }
+
+  .section-install {
+      padding: 2rem;
+  }
+
+  .volun-dis {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .card-artical p {
+      min-width: 100%;
+  }
+}
